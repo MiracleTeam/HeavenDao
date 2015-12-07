@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HeavenDao.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8077C553-47E7-4AD1-B4F7-D15675522FD0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HeavenDao.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HeavenDaoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AB3682FB-99B9-4A53-B52B-1A690468360D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HeavenDao">
+      <UniqueIdentifier>{75B0EABD-7801-48C1-A8B4-BF4C7AAD049F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HeavenDao\HeavenDao.Build.cs">
+      <Filter>Source\HeavenDao</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HeavenDao\HeavenDao.cpp">
+      <Filter>Source\HeavenDao</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeavenDao\HeavenDao.h">
+      <Filter>Source\HeavenDao</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeavenDao\HeavenDaoGameMode.cpp">
+      <Filter>Source\HeavenDao</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeavenDao\HeavenDaoGameMode.h">
+      <Filter>Source\HeavenDao</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HeavenDao\FloatingActor.h">
+      <Filter>Source\HeavenDao</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HeavenDao\FloatingActor.cpp">
+      <Filter>Source\HeavenDao</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
