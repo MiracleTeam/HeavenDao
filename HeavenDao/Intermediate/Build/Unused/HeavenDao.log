@@ -1,0 +1,20 @@
+﻿生成启动时间为 2015/12/8 10:18:52。
+     1>项目“K:\HeavenDao.git\trunk\HeavenDao\Intermediate\ProjectFiles\HeavenDao.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         "H:\Program Files (x86)\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" HeavenDaoEditor Win64 Development "K:\HeavenDao.git\trunk\HeavenDao\HeavenDao.uproject" -rocket -waitmutex
+         Compiling game modules for hot reload
+         Parsing headers for HeavenDaoEditor
+           Running UnrealHeaderTool "K:\HeavenDao.git\trunk\HeavenDao\HeavenDao.uproject" "K:\HeavenDao.git\trunk\HeavenDao\Intermediate\Build\Win64\HeavenDaoEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+         Reflection code generated for HeavenDaoEditor in 18.4672068 seconds
+         Performing 3 actions (2 in parallel)
+         HeavenDao.generated.cpp
+         MyPawn.cpp
+         [3/3] Link UE4Editor-HeavenDao-4539.dll
+            正在创建库 K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-4539.lib 和对象 K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-4539.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Total build time: 121.81 seconds
+     1>已完成生成项目“K:\HeavenDao.git\trunk\HeavenDao\Intermediate\ProjectFiles\HeavenDao.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:09.28
