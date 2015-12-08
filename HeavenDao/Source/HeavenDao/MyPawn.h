@@ -25,5 +25,15 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	USceneComponent* OurVisibleComponent;
+
+	// 输入函数
+	void Move_XAxis(float AxisValue);
+	void Move_YAxis(float AxisValue);
+	void StartGrowing();
+	void StopGrowing();
+
+	//输入变量
+	FVector CurrentVelocity;
+	bool bGrowing;
 	
 };
