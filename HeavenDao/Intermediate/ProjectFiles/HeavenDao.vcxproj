@@ -250,6 +250,8 @@
     <NMakeOutput>..\..\Binaries\Win64\HeavenDao-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\HeavenDao\MyPawn.cpp" />
+    <ClInclude Include="..\..\Source\HeavenDao\MyPawn.h" />
     <None Include="..\..\HeavenDao.uproject" />
     <None Include="..\..\Source\HeavenDao.Target.cs" />
     <None Include="..\..\Source\HeavenDaoEditor.Target.cs" />

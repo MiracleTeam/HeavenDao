@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\HeavenDao\FloatingActor.h">
       <Filter>Source\HeavenDao</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\HeavenDao\MyPawn.h">
+      <Filter>Source\HeavenDao</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\HeavenDao\FloatingActor.cpp">
+      <Filter>Source\HeavenDao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HeavenDao\MyPawn.cpp">
       <Filter>Source\HeavenDao</Filter>
     </ClCompile>
   </ItemGroup>
