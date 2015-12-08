@@ -1,0 +1,568 @@
+﻿[2015.12.07-07.28.41:615][  0]Log file open, 12/07/15 15:28:41
+[2015.12.07-07.28.41:615][  0]LogInit:Display: Running engine for game: HeavenDao
+[2015.12.07-07.28.41:615][  0]LogInit:Display: RandInit(34055703) SRandInit(34055704).
+[2015.12.07-07.28.41:615][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.12.07-07.28.41:615][  0]LogStats: Stats thread started at 0.097573
+[2015.12.07-07.28.41:615][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.07-07.28.41:615][  0]LogInit: API Version: 2672455
+[2015.12.07-07.28.41:615][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.07-07.28.41:615][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.07-07.28.41:615][  0]LogInit: Build Configuration: Development
+[2015.12.07-07.28.41:615][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.07-07.28.41:615][  0]LogInit: Command line:  
+[2015.12.07-07.28.41:615][  0]LogInit: Base directory: H:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.07-07.28.41:615][  0]LogInit: Rocket: 1
+[2015.12.07-07.28.41:624][  0]LogInit: Using libcurl 7.41.0
+[2015.12.07-07.28.41:624][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.07-07.28.41:624][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.07-07.28.41:624][  0]LogInit:  - other features:
+[2015.12.07-07.28.41:624][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.07-07.28.41:624][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.07-07.28.41:624][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.07-07.28.41:624][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.07-07.28.41:624][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.07-07.28.41:625][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.07-07.28.41:625][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.07-07.28.41:625][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.07-07.28.41:625][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.07-07.28.41:625][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.07-07.28.41:634][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.07-07.28.41:646][  0]LogInit: Object subsystem initialized
+[2015.12.07-07.28.41:665][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.07-07.28.41:665][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.07-07.28.41:690][  0]LogInit: Computer: YUEBINBIN-PC
+[2015.12.07-07.28.41:690][  0]LogInit: User: yuebinbin
+[2015.12.07-07.28.41:690][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.12.07-07.28.41:690][  0]LogInit: High frequency timer resolution =2.873603 MHz
+[2015.12.07-07.28.41:690][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.12.07-07.28.41:690][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.07-07.28.41:690][  0]LogMemory: Process Physical Memory: 53.47 MB used, 53.47 MB peak
+[2015.12.07-07.28.41:690][  0]LogMemory: Process Virtual Memory: 58.13 MB used, 58.13 MB peak
+[2015.12.07-07.28.41:690][  0]LogMemory: Physical Memory: 1884.35 MB used, 4023.12 MB total
+[2015.12.07-07.28.41:690][  0]LogMemory: Virtual Memory: 338.14 MB used, 8388608.00 MB total
+[2015.12.07-07.28.43:147][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 240 (Feature Level 10_0)
+[2015.12.07-07.28.43:147][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 1755MB of shared system memory, 1 output[s]
+[2015.12.07-07.28.43:147][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.07-07.28.43:153][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.07-07.28.43:153][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2015.12.07-07.28.43:163][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.07-07.28.43:179][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (K:/HeavenDao.git/trunk/HeavenDao/Intermediate/Shaders/WorkingDirectory/6284/).
+[2015.12.07-07.28.43:179][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'K:/HeavenDao.git/trunk/HeavenDao/Intermediate/Shaders/tmp/CDD948E7440B85D3588E4C8C6EE6F24F/'.
+[2015.12.07-07.28.43:179][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.07-07.28.47:005][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.07-07.28.47:025][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.07-07.28.47:041][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.07-07.28.47:058][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.07-07.28.47:072][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.07-07.28.47:086][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.07-07.28.47:101][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.07-07.28.47:112][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.07-07.28.47:122][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.07-07.28.47:132][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.07-07.28.47:140][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.07-07.28.47:153][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.07-07.28.47:172][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.07-07.28.47:248][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.07-07.28.47:262][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.07-07.28.47:267][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.07-07.28.47:273][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.07-07.28.47:273][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.07-07.28.47:706][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.07-07.28.48:223][  0]LogDerivedDataCache: Loaded boot cache 0.52s 36MB C:/Users/jingjie/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.07-07.28.48:223][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jingjie/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.07-07.28.48:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/HeavenDao.git/trunk/HeavenDao/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.07-07.28.48:223][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.07-07.28.48:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/HeavenDao.git/trunk/HeavenDao/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.07-07.28.48:223][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.07-07.28.48:492][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.07-07.28.48:531][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jingjie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.07-07.28.50:803][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.07-07.28.50:804][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.07-07.28.50:864][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.07-07.28.50:864][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.07-07.28.51:708][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.07-07.28.58:238][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.07-07.28.58:700][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.12.07-07.28.59:426][  0]SourceControl: Info Source control is disabled
+[2015.12.07-07.28.59:427][  0]SourceControl: Info Source control is disabled
+[2015.12.07-07.28.59:458][  0]SourceControl: Info Source control is disabled
+[2015.12.07-07.28.59:502][  0]SourceControl: Info Source control is disabled
+[2015.12.07-07.29.00:165][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.07-07.29.00:403][  0]LogObj: 28365 objects as part of root set at end of initial load.
+[2015.12.07-07.29.00:403][  0]LogUObjectAllocator: 6040840 out of 0 bytes used by permanent object pool.
+[2015.12.07-07.29.00:566][  0]LogEngine: Initializing Engine...
+[2015.12.07-07.29.00:568][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.07-07.29.00:603][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.07-07.29.00:916][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.07-07.29.00:944][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.07-07.29.01:166][  0]LogInit: FAudioDevice initialized.
+[2015.12.07-07.29.01:199][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/jingjie/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.07-07.29.01:207][  0]LogInit: Texture streaming: Enabled
+[2015.12.07-07.29.01:255][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.07-07.29.01:255][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.07-07.29.01:255][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a68bcd43460ee0e32a6db99342067874|d5bfca844e3943ddb2566fb3152c49a9|9a19648a-ce79-4d27-800c-82201f9bc3cc
+[2015.12.07-07.29.01:255][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.07-07.29.01:410][  0]LogInit: Transaction tracking system initialized
+[2015.12.07-07.29.01:747][  0]BlueprintLog: New page: Editor Load
+[2015.12.07-07.29.04:542][  0]LocalizationService: Info Localization service is disabled
+[2015.12.07-07.29.05:436][  0]LogConsoleResponse:Display: 
+[2015.12.07-07.29.06:262][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.07-07.29.06:335][  0]LogFileCache: Scanning file cache for directory 'K:/HeavenDao.git/trunk/HeavenDao/Content/' took 0.02s
+[2015.12.07-07.29.06:561][  0]SourceControl: Info Source control is disabled
+[2015.12.07-07.29.06:561][  0]Cmd: MAP LOAD FILE="K:/HeavenDao.git/trunk/HeavenDao/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.12.07-07.29.06:583][  0]LightingResults: New page: Lighting Build
+[2015.12.07-07.29.06:587][  0]MapCheck: New page: Map Check
+[2015.12.07-07.29.06:588][  0]LightingResults: New page: Lighting Build
+[2015.12.07-07.29.06:625][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F862160
+[2015.12.07-07.29.07:950][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2015.12.07-07.29.08:679][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.07-07.29.08:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.07-07.29.08:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.07-07.29.08:822][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.593ms to complete.
+[2015.12.07-07.29.08:822][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.260
+[2015.12.07-07.29.09:102][  0]LogCollectionManager: Loaded 0 collections in 0.004190 seconds
+[2015.12.07-07.29.09:183][  0]LogFileCache: Scanning file cache for directory 'K:/HeavenDao.git/trunk/HeavenDao/Saved/Collections/' took 0.04s
+[2015.12.07-07.29.09:183][  0]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 1868 classes and 335 folders.
+[2015.12.07-07.29.09:198][  0]LogFileCache: Scanning file cache for directory 'K:/HeavenDao.git/trunk/HeavenDao/Content/Developers/yuebinbin/Collections/' took 0.04s
+[2015.12.07-07.29.09:198][  0]LogFileCache: Scanning file cache for directory 'K:/HeavenDao.git/trunk/HeavenDao/Content/Collections/' took 0.02s
+[2015.12.07-07.29.09:198][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.12.07-07.29.09:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2015.12.07-07.29.10:050][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2015.12.07-07.29.10:092][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.12.07-07.29.10:285][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.07-07.29.10:301][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.07-07.29.10:331][  0]LogLoad: Full Startup: 29.94 seconds (BP compile: 0.14 seconds)
+[2015.12.07-07.29.10:445][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.07-07.29.10:713][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.12.07-07.29.11:396][  5]LogAssetRegistry: Asset discovery search completed in 12.7082 seconds
+[2015.12.07-07.29.11:396][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.07-07.29.11:396][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2015.12.07-07.29.20:873][189]LogShaderCompilers:Warning: Failed to compile Material /Game/StarterContent/Props/Materials/M_StatueGlass.M_StatueGlass for platform PCD3D_SM4, Default Material will be used in game.
+[2015.12.07-07.34.28:878][872]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.12.07-07.34.28:929][872]LightingResults: New page: Lighting Build
+[2015.12.07-07.34.28:970][872]LoadErrors: New page: Loading map: Template_Default.umap
+[2015.12.07-07.34.29:101][872]MapCheck: New page: Map Check
+[2015.12.07-07.34.29:101][872]LightingResults: New page: Lighting Build
+[2015.12.07-07.34.29:264][872]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000105D7380
+[2015.12.07-07.34.29:800][872]LogAIModule: Creating AISystem for world Untitled_1
+[2015.12.07-07.34.29:871][872]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.07-07.34.29:920][872]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.07-07.34.29:986][872]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.695ms to complete.
+[2015.12.07-07.34.29:986][872]LogFileHelpers: Loading map 'Template_Default' took 1.120
+[2015.12.07-07.37.05:569][581]Running H:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe HeavenDao Win64 Development -editorrecompile "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" -invalidatemakefilesonly -rocket
+[2015.12.07-07.37.07:481][581]Invalidating makefiles only in this run.
+[2015.12.07-07.37.07:717][581]Recompiling HeavenDao...
+[2015.12.07-07.37.07:717][581]Launching UnrealBuildTool... [H:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe HeavenDao -ModuleWithSuffix HeavenDao 9810 Win64 Development -editorrecompile -canskiplink "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" -rocket  -rocket]
+[2015.12.07-07.38.59:977][581]CompilerResultsLog: New page: Compilation - Dec 7, 2015, 11:38:59 PM
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Creating makefile for hot reloading HeavenDao (no existing makefile)
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Parsing headers for HeavenDaoEditor
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info   Running UnrealHeaderTool "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" "K:\HeavenDao.git\trunk\HeavenDao\Intermediate\Build\Win64\HeavenDaoEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Reflection code generated for HeavenDaoEditor in 14.7751129 seconds
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info HeavenDao.generated.cpp
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info FloatingActor.cpp
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info [3/3] Link UE4Editor-HeavenDao-9810.dll
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info    ???ڴ????? K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-9810.lib ?Ͷ??? K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-9810.exp
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.12.07-07.38.59:984][581]CompilerResultsLog: Info Total build time: 112.03 seconds
+[2015.12.07-07.38.59:984][581]LogMainFrame: MainFrame: Module compiling took 112.359 seconds
+[2015.12.07-07.39.00:069][581]LogClass: Could not find existing class FloatingActor in package /Script/HeavenDao for HotReload, assuming new class
+[2015.12.07-07.39.00:082][581]LogContentBrowser: Native class hierarchy updated for 'HeavenDao' in 0.0016 seconds. Added 2 classes and 2 folders.
+[2015.12.07-07.39.00:084][581]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.12.07-07.39.00:368][581]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 1870 classes and 337 folders.
+[2015.12.07-07.39.00:399][581]Warning: HotReload operation took 112.8s.
+[2015.12.07-07.39.01:383][581]LogVSAccessor:Warning: Couldn't goto line number '0' in 'K:/HeavenDao.git/trunk/HeavenDao/Source/HeavenDao/FloatingActor.h'
+[2015.12.07-07.39.01:541][581]LogVSAccessor:Warning: Couldn't goto line number '0' in 'K:/HeavenDao.git/trunk/HeavenDao/Source/HeavenDao/FloatingActor.cpp'
+[2015.12.07-07.39.01:653][581]LogHotReload: New module detected: UE4Editor-HeavenDao-9810.dll
+[2015.12.07-07.39.02:539][582]LogHotReload: Starting Hot-Reload from IDE
+[2015.12.07-07.39.02:742][582]LogContentBrowser: Native class hierarchy updated for 'HeavenDao' in 0.0013 seconds. Added 2 classes and 2 folders.
+[2015.12.07-07.39.02:745][582]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.12.07-07.39.02:767][582]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 1870 classes and 337 folders.
+[2015.12.07-07.45.21:114][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-07.45.25:301][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-07.45.26:344][ 85]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.12.07-07.45.27:458][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-07.45.27:805][160]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.12.07-07.52.56:151][138]Recompiling HeavenDao...
+[2015.12.07-07.52.56:152][138]Launching UnrealBuildTool... [H:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe HeavenDao -ModuleWithSuffix HeavenDao 1113 Win64 Development -editorrecompile -canskiplink "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" -rocket  -rocket]
+[2015.12.07-07.52.56:191][138]Warning: Starting HotReload took  0.1s.
+[2015.12.07-07.54.55:552][512]CompilerResultsLog: New page: Compilation - Dec 7, 2015, 11:54:55 PM
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info Parsing headers for HeavenDaoEditor
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info   Running UnrealHeaderTool "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" "K:\HeavenDao.git\trunk\HeavenDao\Intermediate\Build\Win64\HeavenDaoEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info Reflection code generated for HeavenDaoEditor in 17.6267542 seconds
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info HeavenDao.generated.cpp
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info FloatingActor.cpp
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info [3/3] Link UE4Editor-HeavenDao-1113.dll
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info    ???ڴ????? K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-1113.lib ?Ͷ??? K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-1113.exp
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.12.07-07.54.55:571][512]CompilerResultsLog: Info Total build time: 114.74 seconds
+[2015.12.07-07.54.55:571][512]LogMainFrame: MainFrame: Module compiling took 119.445 seconds
+[2015.12.07-07.54.56:272][512]LogClass: Could not find existing class FloatingActor in package /Script/HeavenDao for HotReload, assuming new class
+[2015.12.07-07.54.56:407][512]LogHotReload: Re-instancing FloatingActor after hot-reload.
+[2015.12.07-07.54.58:335][512]LogContentBrowser: Native class hierarchy updated for 'HeavenDao' in 0.1097 seconds. Added 2 classes and 2 folders.
+[2015.12.07-07.54.58:339][512]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.12.07-07.54.58:536][512]LogContentBrowser: Native class hierarchy populated in 0.0582 seconds. Added 1870 classes and 337 folders.
+[2015.12.07-08.03.04:991][134]LogEditor: Attempting to add actor of class 'FloatingActor' to level at -300.00,-390.00,20.00
+[2015.12.07-08.03.06:528][163]LogEditor: Attempting to add actor of class 'FloatingActor' to level at -50.00,-120.00,20.00
+[2015.12.07-08.03.52:031][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="K:/HeavenDao.git/trunk/HeavenDao/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.12.07-08.03.52:305][477]LogSavePackage: Save=226.691376ms
+[2015.12.07-08.03.52:305][477]LogSavePackage: Moving 'K:/HeavenDao.git/trunk/HeavenDao/Saved/Untitled_1_Auto198DC7AFF45F93BA9D74DDAB12AB5A733.tmp' to 'K:/HeavenDao.git/trunk/HeavenDao/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2015.12.07-08.03.52:307][477]LogSavePackage: Total save time: 241.225041ms
+[2015.12.07-08.03.52:307][477]LogSavePackage:Warning: Finished SavePackage K:/HeavenDao.git/trunk/HeavenDao/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2015.12.07-08.03.52:333][477]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.551
+[2015.12.07-08.03.52:333][477]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.551
+[2015.12.07-08.06.47:556][132]LogEditor: Attempting to add actor of class 'FloatingActor' to level at -290.00,-240.00,20.00
+[2015.12.07-08.06.59:775][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-08.13.15:802][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-08.13.25:839][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-08.14.09:841][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.07-08.14.09:849][461]PIE: New page: PIE session: Untitled_1 (Dec 8, 2015, 12:14:09 AM)
+[2015.12.07-08.14.09:874][461]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.12.07-08.14.10:056][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182074s)
+[2015.12.07-08.14.10:539][461]LogAIModule: Creating AISystem for world Untitled_1
+[2015.12.07-08.14.10:560][461]LogPlayLevel: PIE: World Init took: (0.504190s)
+[2015.12.07-08.14.10:580][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.713495s)
+[2015.12.07-08.14.10:755][461]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.07-08.14.10:825][461]LogInit: FAudioDevice initialized.
+[2015.12.07-08.14.11:377][461]LogWorld: Game class is 'HeavenDaoGameMode'
+[2015.12.07-08.14.11:711][461]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.12.07-16.14.11
+[2015.12.07-08.14.11:711][461]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.07-08.14.11:721][461]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.07-08.14.11:747][461]LogWorld: Bringing up level for play took: 0.081134
+[2015.12.07-08.14.11:930][461]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.07-08.14.12:094][461]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.8
+[2015.12.07-08.14.42:203][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003E700E0
+[2015.12.07-08.14.48:583][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-08.14.49:493][176]Cmd: SELECT NONE
+[2015.12.07-08.14.56:518][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.07-08.15.20:022][785]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.12.07-08.15.38:788][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="K:/HeavenDao.git/trunk/HeavenDao/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.07-08.15.38:918][810]LogSavePackage: Save=46.848503ms
+[2015.12.07-08.15.38:918][810]LogSavePackage: Moving 'K:/HeavenDao.git/trunk/HeavenDao/Saved/TestLevel93420721485C249ECE1EAA9ADCB6D73E.tmp' to 'K:/HeavenDao.git/trunk/HeavenDao/Content/TestLevel.umap'
+[2015.12.07-08.15.38:948][810]LogSavePackage: Total save time: 76.186936ms
+[2015.12.07-08.15.38:948][810]LogSavePackage:Warning: Finished SavePackage K:/HeavenDao.git/trunk/HeavenDao/Content/TestLevel.umap
+[2015.12.07-08.15.38:976][810]LogFileHelpers: Saving map 'TestLevel' took 3.993
+[2015.12.07-08.27.34:053][105]Running H:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe HeavenDao Win64 Development -editorrecompile "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" -invalidatemakefilesonly -rocket
+[2015.12.07-08.27.37:376][105]Invalidating makefiles only in this run.
+[2015.12.07-08.27.37:554][105]Recompiling HeavenDao...
+[2015.12.07-08.27.37:554][105]Launching UnrealBuildTool... [H:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe HeavenDao -ModuleWithSuffix HeavenDao 5003 Win64 Development -editorrecompile -canskiplink "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" -rocket  -rocket]
+[2015.12.07-08.29.42:595][105]CompilerResultsLog: New page: Compilation - Dec 8, 2015, 12:29:42 AM
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info Creating makefile for hot reloading HeavenDao (no existing makefile)
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info Parsing headers for HeavenDaoEditor
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info   Running UnrealHeaderTool "K:/HeavenDao.git/trunk/HeavenDao/HeavenDao.uproject" "K:\HeavenDao.git\trunk\HeavenDao\Intermediate\Build\Win64\HeavenDaoEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info Reflection code generated for HeavenDaoEditor in 13.8006655 seconds
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info MyPawn.cpp
+[2015.12.07-08.29.42:596][105]CompilerResultsLog: Info HeavenDao.generated.cpp
+[2015.12.07-08.29.42:597][105]CompilerResultsLog: Info [3/3] Link UE4Editor-HeavenDao-5003.dll
+[2015.12.07-08.29.42:597][105]CompilerResultsLog: Info    ???ڴ????? K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-5003.lib ?Ͷ??? K:\HeavenDao.git\trunk\HeavenDao\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-HeavenDao-5003.exp
+[2015.12.07-08.29.42:597][105]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.12.07-08.29.42:597][105]CompilerResultsLog: Info Total build time: 124.90 seconds
+[2015.12.07-08.29.42:597][105]LogMainFrame: MainFrame: Module compiling took 125.053 seconds
+[2015.12.07-08.29.42:692][105]LogClass: Could not find existing class MyPawn in package /Script/HeavenDao for HotReload, assuming new class
+[2015.12.07-08.29.42:737][105]LogContentBrowser: Native class hierarchy updated for 'HeavenDao' in 0.0027 seconds. Added 3 classes and 2 folders.
+[2015.12.07-08.29.42:741][105]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.12.07-08.29.42:827][105]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 1871 classes and 337 folders.
+[2015.12.07-08.29.42:829][105]Warning: HotReload operation took 125.3s.
+[2015.12.07-08.29.44:791][105]LogVSAccessor:Warning: Couldn't goto line number '0' in 'K:/HeavenDao.git/trunk/HeavenDao/Source/HeavenDao/MyPawn.h'
+[2015.12.07-08.29.45:151][105]LogVSAccessor:Warning: Couldn't goto line number '0' in 'K:/HeavenDao.git/trunk/HeavenDao/Source/HeavenDao/MyPawn.cpp'
+[2015.12.07-08.29.45:762][106]LogHotReload: New module detected: UE4Editor-HeavenDao-5003.dll
+[2015.12.07-08.29.45:846][107]LogHotReload: Starting Hot-Reload from IDE
+[2015.12.07-08.29.45:924][107]LogContentBrowser: Native class hierarchy updated for 'HeavenDao' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2015.12.07-08.29.45:927][107]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.12.07-08.29.45:958][107]LogContentBrowser: Native class hierarchy populated in 0.0225 seconds. Added 1871 classes and 337 folders.
+[2015.12.07-08.47.20:882][324]LogHotReload: New module detected: UE4Editor-HeavenDao-1522.dll
+[2015.12.07-08.47.21:890][328]LogHotReload: Starting Hot-Reload from IDE
+[2015.12.07-08.47.22:100][328]LogClass: Could not find existing class MyPawn in package /Script/HeavenDao for HotReload, assuming new class
+[2015.12.07-08.47.22:130][328]LogHotReload: Re-instancing MyPawn after hot-reload.
+[2015.12.07-08.47.22:182][328]LogContentBrowser: Native class hierarchy updated for 'HeavenDao' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2015.12.07-08.47.22:185][328]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.12.07-08.47.22:270][328]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 1871 classes and 337 folders.
+[2015.12.07-10.09.58:582][142]Cmd: TRANSACTION UNDO
+[2015.12.07-10.09.58:591][142]LogEditorTransaction: Undo Add Axis Mapping
+[2015.12.07-10.13.39:875][320]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.12.07-10.13.39:875][320]LogSynthBenchmark:Display: ===============
+[2015.12.07-10.13.39:875][320]LogSynthBenchmark:Display: Main Processor:
+[2015.12.07-10.13.39:959][320]LogSynthBenchmark:Display:          ... 0.054268 s/Run 'RayIntersect'
+[2015.12.07-10.13.39:959][320]LogSynthBenchmark:Display:          ... 0.029789 s/Run 'Fractal'
+[2015.12.07-10.13.39:959][320]LogSynthBenchmark:Display: 
+[2015.12.07-10.13.39:959][320]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.12.07-10.13.39:959][320]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   CPU Perf Index 0: 47.2
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   CPU Perf Index 1: 96.0
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:  
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display: Graphics:
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GT 240'
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2015.12.07-10.13.39:960][320]LogSynthBenchmark:Display:   GPU Memory: 979/0/1756 MB
+[2015.12.07-10.13.40:198][320]LogSynthBenchmark:Display:   GPU first test: 0.02s
+[2015.12.07-10.13.40:206][320]LogSynthBenchmark:Display:          ... 0.422 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2015.12.07-10.13.40:206][320]LogSynthBenchmark:Display:          ... 0.626 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2015.12.07-10.13.40:206][320]LogSynthBenchmark:Display:          ... 0.544 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2015.12.07-10.13.40:206][320]LogSynthBenchmark:Display:          ... 1.235 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2015.12.07-10.13.40:206][320]LogSynthBenchmark:Display:          ... 0.076 GigaPix/s, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPU second test: 0.15s
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 0.607 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 1.003 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 0.783 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 1.947 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 0.072 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 0.607 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 1.003 GigaPix/s, Confidence=100% 'TexHeavy'
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 0.783 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 1.947 GigaPix/s, Confidence=100% 'FillOnly'
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... 0.072 GigaPix/s, Confidence=100% 'Bandwidth'
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display: 
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPU Perf Index 0: 13.2
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPU Perf Index 1: 13.5
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPU Perf Index 2: 20.4
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPU Perf Index 3: 7.6
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPU Perf Index 4: 6.7
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   CPUIndex: 47.2
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:   GPUIndex: 13.2
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display: 
+[2015.12.07-10.13.40:371][320]LogSynthBenchmark:Display:          ... Total Time: 0.495309 sec
+[2015.12.07-10.13.40:513][320]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.07-10.13.42:212][321]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2015.12.07-10.13.44:901][322]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:16358).
+[2015.12.07-10.13.54:209][529]LogShaderCompilers:Warning: Failed to compile Material /Game/StarterContent/Props/Materials/M_StatueGlass.M_StatueGlass for platform PCD3D_SM4, Default Material will be used in game.
+[2015.12.07-10.14.02:761][745]LogEditor: Attempting to add actor of class 'MyPawn' to level at -160.00,-140.00,20.00
+[2015.12.07-10.14.06:143][895]LogEditor: Attempting to add actor of class 'MyPawn' to level at -80.00,-100.00,20.00
+[2015.12.07-10.15.35:758][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="K:/HeavenDao.git/trunk/HeavenDao/Saved/Autosaves/Game/TestLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.12.07-10.15.36:116][303]LogSavePackage: Save=221.799942ms
+[2015.12.07-10.15.36:116][303]LogSavePackage: Moving 'K:/HeavenDao.git/trunk/HeavenDao/Saved/TestLevel_Auto2FF72677D4117DA111CEF37AFEC7F5FF2.tmp' to 'K:/HeavenDao.git/trunk/HeavenDao/Saved/Autosaves/Game/TestLevel_Auto2.umap'
+[2015.12.07-10.15.36:140][303]LogSavePackage: Total save time: 350.411311ms
+[2015.12.07-10.15.36:140][303]LogSavePackage:Warning: Finished SavePackage K:/HeavenDao.git/trunk/HeavenDao/Saved/Autosaves/Game/TestLevel_Auto2.umap
+[2015.12.07-10.15.36:147][303]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestLevel' took 0.555
+[2015.12.07-10.15.36:147][303]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.555
+[2015.12.07-10.17.11:535][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="K:/HeavenDao.git/trunk/HeavenDao/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.07-10.17.11:650][428]LogSavePackage: Save=43.750301ms
+[2015.12.07-10.17.11:650][428]LogSavePackage: Moving 'K:/HeavenDao.git/trunk/HeavenDao/Saved/TestLevel20922A1C42914D5D50DE8EADC4E04EE2.tmp' to 'K:/HeavenDao.git/trunk/HeavenDao/Content/TestLevel.umap'
+[2015.12.07-10.17.11:651][428]LogSavePackage: Total save time: 45.665666ms
+[2015.12.07-10.17.11:651][428]LogSavePackage:Warning: Finished SavePackage K:/HeavenDao.git/trunk/HeavenDao/Content/TestLevel.umap
+[2015.12.07-10.17.11:695][428]LogFileHelpers: Saving map 'TestLevel' took 2.234
+[2015.12.07-11.11.08:547][256]Cmd: QUIT_EDITOR
+[2015.12.07-11.11.10:025][256]LogExit: Preparing to exit.
+[2015.12.07-11.11.12:251][256]LogExit: Editor shut down
+[2015.12.07-11.11.12:251][256]LogExit: Transaction tracking system shut down
+[2015.12.07-11.11.12:259][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F919E0
+[2015.12.07-11.11.12:437][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F91DA0
+[2015.12.07-11.11.12:437][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002385E980
+[2015.12.07-11.11.12:437][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002524F4C0
+[2015.12.07-11.11.15:433][256]LogExit: Object subsystem successfully closed.
+[2015.12.07-11.11.15:932][256]LogD3D11RHI: Shutdown
+[2015.12.07-11.11.15:933][256]LogD3D11RHI: CleanupD3DDevice
+[2015.12.07-11.11.15:984][256]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.07-11.11.17:497][256]LogModuleManager: Shutting down and abandoning module SynthBenchmark (201)
+[2015.12.07-11.11.17:497][256]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2015.12.07-11.11.17:497][256]LogModuleManager: Shutting down and abandoning module NewLevelDialog (199)
+[2015.12.07-11.11.17:501][256]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.07-11.11.17:508][256]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.07-11.11.17:508][256]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.07-11.11.17:516][256]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.07-11.11.17:527][256]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.07-11.11.17:557][256]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.07-11.11.17:557][256]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.07-11.11.17:572][256]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.07-11.11.17:588][256]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.07-11.11.17:593][256]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.07-11.11.17:673][256]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.07-11.11.17:673][256]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.07-11.11.17:673][256]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.07-11.11.17:674][256]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.07-11.11.17:674][256]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.07-11.11.17:674][256]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.07-11.11.17:682][256]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.07-11.11.17:682][256]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.07-11.11.17:692][256]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.07-11.11.17:700][256]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.07-11.11.17:756][256]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.07-11.11.17:778][256]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.07-11.11.17:840][256]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.07-11.11.17:850][256]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.07-11.11.17:862][256]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.07-11.11.17:862][256]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.07-11.11.17:904][256]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.07-11.11.17:904][256]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.07-11.11.17:904][256]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.07-11.11.17:904][256]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.07-11.11.17:931][256]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.07-11.11.17:963][256]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.07-11.11.17:998][256]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.07-11.11.18:013][256]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.07-11.11.18:025][256]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.07-11.11.18:113][256]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.07-11.11.18:113][256]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.07-11.11.18:128][256]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.07-11.11.18:148][256]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.07-11.11.18:160][256]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.07-11.11.18:160][256]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.07-11.11.18:165][256]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.07-11.11.18:165][256]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.07-11.11.18:223][256]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.07-11.11.18:223][256]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.07-11.11.18:230][256]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.07-11.11.18:238][256]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.07-11.11.18:246][256]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.07-11.11.18:302][256]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.07-11.11.18:314][256]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.07-11.11.18:323][256]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.07-11.11.18:324][256]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.07-11.11.18:347][256]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.07-11.11.18:366][256]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.07-11.11.18:376][256]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.07-11.11.18:395][256]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.07-11.11.18:395][256]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.07-11.11.18:406][256]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.07-11.11.18:407][256]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.07-11.11.18:470][256]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.07-11.11.18:790][256]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.07-11.11.18:919][256]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.07-11.11.19:097][256]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.07-11.11.19:097][256]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.07-11.11.19:137][256]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.07-11.11.19:371][256]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.07-11.11.19:387][256]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.07-11.11.19:436][256]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.07-11.11.19:442][256]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.07-11.11.19:460][256]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.07-11.11.19:466][256]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.07-11.11.19:466][256]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.07-11.11.19:470][256]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.07-11.11.19:475][256]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.07-11.11.19:491][256]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.07-11.11.19:496][256]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.07-11.11.19:700][256]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.07-11.11.19:717][256]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.07-11.11.19:722][256]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.07-11.11.19:722][256]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.07-11.11.19:722][256]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.07-11.11.19:722][256]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.12.07-11.11.19:733][256]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.12.07-11.11.19:733][256]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.07-11.11.19:851][256]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.07-11.11.19:851][256]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.07-11.11.19:851][256]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.07-11.11.19:851][256]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.07-11.11.19:877][256]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.07-11.11.19:883][256]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.07-11.11.19:883][256]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.07-11.11.19:883][256]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.07-11.11.19:902][256]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.07-11.11.19:921][256]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.07-11.11.19:942][256]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.07-11.11.19:953][256]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.07-11.11.19:953][256]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.07-11.11.19:986][256]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.07-11.11.20:004][256]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.07-11.11.20:028][256]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.07-11.11.20:045][256]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.07-11.11.20:054][256]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.07-11.11.20:079][256]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.07-11.11.20:086][256]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.07-11.11.20:096][256]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.07-11.11.20:107][256]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.07-11.11.20:116][256]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.07-11.11.20:116][256]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.07-11.11.20:157][256]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.07-11.11.20:159][256]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.07-11.11.20:307][256]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.07-11.11.20:308][256]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.07-11.11.20:333][256]LogModuleManager: Shutting down and abandoning module HeavenDao (86)
+[2015.12.07-11.11.20:333][256]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.07-11.11.20:434][256]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.07-11.11.20:434][256]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.07-11.11.20:474][256]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.07-11.11.20:517][256]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.07-11.11.20:545][256]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.07-11.11.20:577][256]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.07-11.11.20:577][256]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.07-11.11.20:577][256]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.07-11.11.20:650][256]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.07-11.11.20:662][256]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.07-11.11.20:678][256]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.07-11.11.20:711][256]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.07-11.11.20:760][256]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.07-11.11.20:764][256]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.07-11.11.20:777][256]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.07-11.11.20:821][256]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.07-11.11.20:855][256]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.07-11.11.20:860][256]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.07-11.11.20:860][256]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.07-11.11.20:913][256]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.07-11.11.20:913][256]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.07-11.11.20:916][256]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.07-11.11.20:916][256]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.07-11.11.20:916][256]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.07-11.11.20:916][256]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.07-11.11.20:925][256]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.07-11.11.20:935][256]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.07-11.11.20:943][256]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.07-11.11.20:962][256]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.07-11.11.20:964][256]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.07-11.11.21:043][256]LogDerivedDataCache: Shutdown
+[2015.12.07-11.11.21:043][256]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.07-11.11.21:063][256]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.07-11.11.21:073][256]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.07-11.11.21:080][256]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.07-11.11.21:081][256]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.07-11.11.21:085][256]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.07-11.11.21:087][256]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.07-11.11.21:087][256]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.07-11.11.21:087][256]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.07-11.11.21:093][256]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.07-11.11.21:100][256]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.07-11.11.21:100][256]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.07-11.11.21:106][256]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.07-11.11.21:107][256]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.07-11.11.21:114][256]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.07-11.11.21:114][256]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.07-11.11.21:114][256]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.07-11.11.21:114][256]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.07-11.11.21:116][256]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.07-11.11.21:123][256]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.07-11.11.21:128][256]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.07-11.11.21:132][256]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.07-11.11.21:141][256]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.07-11.11.21:145][256]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.07-11.11.21:155][256]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.07-11.11.21:159][256]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.07-11.11.21:169][256]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.07-11.11.21:169][256]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.07-11.11.21:175][256]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.07-11.11.21:183][256]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.07-11.11.21:192][256]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.07-11.11.21:192][256]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.07-11.11.21:197][256]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.07-11.11.21:197][256]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.07-11.11.21:205][256]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.07-11.11.21:205][256]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.07-11.11.23:205][256]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.07-11.11.23:232][256]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.07-11.11.23:232][256]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.07-11.11.23:257][256]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.07-11.11.23:257][256]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.07-11.11.23:257][256]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.07-11.11.23:301][256]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.07-11.11.23:330][256]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.07-11.11.23:330][256]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.07-11.11.23:330][256]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.07-11.11.23:330][256]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.07-11.11.23:330][256]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.07-11.11.23:330][256]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.07-11.11.23:354][256]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.07-11.11.23:366][256]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.07-11.11.23:371][256]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.07-11.11.23:475][256]LogExit: Exiting.
+[2015.12.07-11.11.23:520][256]Log file closed, 12/07/15 19:11:23
